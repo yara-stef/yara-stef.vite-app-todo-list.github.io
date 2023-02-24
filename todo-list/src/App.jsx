@@ -2,6 +2,7 @@
 import './App.css'
 import Title from './title/title'
 import Textfield from './textfield/textfield'
+import CheckBox from './checkbox/checkbox'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Title />
       <Textfield />
+      <CheckBox />
     </div>
     
   )

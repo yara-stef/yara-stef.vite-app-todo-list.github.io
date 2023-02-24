@@ -20,7 +20,7 @@ const Textfield = () => {
                     maxWidth: '100%',
                 }}
             >
-                <TextField fullWidth label="fullWidth" id="fullWidth" />
+                <TextField fullWidth label="Add Todo..." id="fullWidth" />
                 <ThemeProvider theme={theme}>      
                   <Button color="secondary">Submit</Button>
                 </ThemeProvider>
